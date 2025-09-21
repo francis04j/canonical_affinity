@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CononicalAffinity"
+version = "0.1.0"
+description = "A web crawler that checks for target URLs."
+authors = [
+    { name = "Francis Adediran", email = "your-email@example.com" }
+]
+dependencies = [
+    "beautifulsoup4>=4.12.2",
+    "requests>=2.31.0"
+]
